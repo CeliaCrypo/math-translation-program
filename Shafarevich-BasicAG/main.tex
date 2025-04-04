@@ -1,0 +1,60 @@
+\documentclass[UTF8]{ctexbook}
+
+%下面开始调用宏包
+\usepackage[dvipsnames, svgnames, x11names]{xcolor}% 一般放得靠前 颜色教程: https://www.jianshu.com/p/5aee7c366369
+\usepackage{geometry}
+\geometry{scale=0.8}
+\usepackage{hyperref}
+\usepackage{framed}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{enumitem}
+\setlist[enumerate,1]{label=(\arabic*)}
+\usepackage{bm}
+\usepackage{mathrsfs}            %数学花体
+\usepackage{graphicx, subfig}%调用图片
+%newtheorem的用法:\newtheorem{环境名}{数学内容}[section]
+%newtheorem的用法(二):\newtheorem{环境名}[numberedlike]{数学内容}.
+%所谓数学内容就是打出来显示的内容,环境名指的是下文中调用该环境的名称.numberedlike是指跟随谁谁谁编号
+\usepackage{array}
+
+
+
+\title{基础代数几何 \\--投影空间中的代数簇}
+\author{Shafarevich}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+
+	\chapter{基础概念}
+
+	\section{平面上的代数曲线}%
+	\label{sec:平面上的代数曲线}
+	
+	\section{仿射空间中的闭子集}%
+	\label{sec:仿射空间中的闭子集}
+	
+	\section{有理函数}%
+	\label{sec:有理函数}
+	
+	\section{拟投影簇}%
+	\label{sec:拟投影簇}
+	
+	\section{拟投影簇的积和映射}%
+	\label{sec:拟投影簇的积和映射}
+	
+	\section{维数}%
+	\label{sec:维数}
+	
+
+	\chapter{局部性质}
+
+	\chapter{除子和微分形式}
+
+	\chapter{相交数}
+\end{document}
+
